@@ -1,7 +1,7 @@
 bd = [];
 
 function adicionarTarefa (tarefa){
-    return bd.push(tarefa)
+    bd.push(tarefa)
 }
 
 function listarTarefas(){
