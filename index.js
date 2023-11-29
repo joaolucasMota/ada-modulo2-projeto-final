@@ -1,20 +1,20 @@
 bd = [];
 
 function adicionarTarefa (tarefa){
-    bd.push(tarefa)
+   return bd.push(tarefa)
 }
 
 function listarTarefas(){
-    bd.forEach((tarefa) =>{
+    return bd.forEach((tarefa) =>{
         console.log(tarefa)
     })
 }
 
 function editarTarefa(index, novoConteudo){
-   bd[index] = novoConteudo;
+    return bd[index] = novoConteudo;
 }
 
 function excluirTarefa(index){
-    bd.splice(index, 1)
+    return bd.splice(index, 1)
 }
 
